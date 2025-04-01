@@ -1,0 +1,45 @@
+/* É importante comentar o que você está fazendo*/
+
+/*Alteramos o posicionamento dos itens da navega-
+ção principal*/
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Abaixo estamos definindo alterações em atributos apenas do primeiro elemento de navegação 
+anterior, no caso o nome da página*/
+nav > a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 28px;
+    color: pink;
+}
+/*Alteramos os atributos das listas*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    width: 100%;
+    color: pink;
+    
+}
+/*Alteramos os atributos dos elementos da lista*/
+nav ul li{
+    text-align: center;
+    width: 100%;
+    color: pink;
+}
+/*Alteramos os links da lista*/
+ ul il a {
+    display: inline-block;
+    padding:10px 0;
+    width: 100%;
+    color: pink;
+}
+
+
